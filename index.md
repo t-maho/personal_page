@@ -17,5 +17,5 @@ Following this very good experience, I confirmed my desire to learn more about A
 
 SurFree
 
-[arxiv](!https://arxiv.org/abs/2011.12807)
-[code](!https://github.com/t-maho/SurFree)
+[arxiv](https://arxiv.org/abs/2011.12807)
+[code](https://github.com/t-maho/SurFree)
