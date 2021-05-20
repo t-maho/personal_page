@@ -17,9 +17,8 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>I am Strata</strong>, a super simple<br />
-					responsive site template freebie<br />
-					crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+					<h1><strong>Thibault MAHO</strong><br />
+					PhD Student at INRIA Rennes<br />
 				</div>
 			</header>
 
@@ -29,10 +28,17 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Ipsum lorem dolor aliquam ante commodo<br />
-							magna sed accumsan arcu neque.</h2>
+							<h2>Who am I</h2>
 						</header>
-						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+						<p>
+
+						I am a PhD student at INRIA Rennes, in the Linkmedia team headed by Laurent Amsaleg. I am supervised by Teddy FURON and Erwan LE MERRER. My work focuses on neural network security. I create attacks to fool an AI, and defenses to make them more robust.
+
+						I received my engineering degree from Phelma, a member of Grenoble-INP. I acquired skills in signal and image processing, and in electronics. I then wanted to go further into the field of artificial intelligence. For that, I worked 4 years in xBrain, a company working in natural language processing. I worked on many projects such as text classification, POS or knowledge discovery. I was also able to work on the production implementation of my solutions. This allowed me to know the best practices in programming.
+
+						Following this very good experience, I confirmed my desire to learn more about AI and how it works. This led to the beginning of a PhD. I started this PhD in September 2020, and I have already published 2 papers. I invite you to go and see them here. 
+
+						</p>
 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul>
