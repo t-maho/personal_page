@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Short Bio
 
-You can use the [editor on GitHub](https://github.com/t-maho/personal_page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I am a PhD student at INRIA Rennes, in the Linkmedia team headed by Laurent Amsaleg. I am supervised by Teddy FURON and Erwan LE MERRER. My work focuses on neural network security. I create attacks to fool an AI, and defenses to make them more robust.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I received my engineering degree from Phelma, a member of Grenoble-INP. I acquired skills in signal and image processing, and in electronics. I then wanted to go further into the field of artificial intelligence. For that, I worked 4 years in xBrain, a company working in natural language processing. I worked on many projects such as text classification, POS or knowledge discovery. I was also able to work on the production implementation of my solutions. This allowed me to know the best practices in programming.
 
-### Markdown
+Following this very good experience, I confirmed my desire to learn more about AI and how it works. This led to the beginning of a PhD. I started this PhD in September 2020, and I have already published 2 papers. I invite you to go and see them here. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### News
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+# Research
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+SurFree
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/t-maho/personal_page/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[arxiv](!https://arxiv.org/abs/2011.12807)
+[code](!https://github.com/t-maho/SurFree)
