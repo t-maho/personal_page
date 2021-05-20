@@ -2073,7 +2073,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'Arxiv';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2197,7 +2197,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 2em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2205,7 +2205,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 2.5em;
 			}
 
 /* Labeled Icons */
@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/fond_gauche.jpeg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2766,7 +2766,7 @@ input, select, textarea {
 		}
 	}
 
-	.poptrox-popup {
+	.poptrox-popup {	
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
