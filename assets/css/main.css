@@ -2049,7 +2049,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2073,7 +2073,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'Paper';
+				content: 'See more';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
