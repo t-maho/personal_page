@@ -1,0 +1,65 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+
+
+.image_3_avatar {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.small_images_avatar {
+    width: 100%;
+    height: 50%;
+}
+
+
+.banner_content .media img {
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    object-fit: cover;
+}
+
+.button_download {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    background-color: #9fafe4; 
+    border:5px;
+    margin-top: 50px;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 5px;
+    font-weight: bold; 
+}
+
+.button_download:hover {
+    opacity: 70%;
+  }
+
+
+/* Icons */
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+    ul.icons li {
+        display: inline-block;
+        padding: 0 2em 0 0;
+    }
+
+        ul.icons li:last-child {
+            padding-right: 0;
+        }
+
+        ul.icons li .icon:before {
+            font-size: 2.5em;
+        }

@@ -25,12 +25,15 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
 	line-height: 1;
+	-webkit-text-size-adjust: none;
 }
 
 ol, ul {
@@ -51,9 +54,6 @@ table {
 	border-spacing: 0;
 }
 
-body {
-	-webkit-text-size-adjust: none;
-}
 
 mark {
 	background-color: transparent;
@@ -1794,6 +1794,8 @@ input, select, textarea {
 		font-size: 2em;
 	}
 
+	
+
 /* Form */
 
 	form {
@@ -2135,6 +2137,7 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			padding: 10%;
 		}
 
 			.image.avatar:before {
@@ -2197,7 +2200,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 2em 0 0;
+			padding: 0 1em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -2205,7 +2208,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 2.5em;
+				font-size: 1.5em;
 			}
 
 /* Labeled Icons */
@@ -2593,18 +2596,18 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/fond_gauche.jpeg");
+		background-image: url("images/overlay.png")/*url("../../images/fond_gauche.jpeg")*/;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 5em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
-		width: 35%;
+		width: 25%;
 	}
 
 		#header > * {
@@ -2613,6 +2616,15 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			width: 100%;
+		}
+
+		#header a.button {
+			margin-top: 1em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			width: 10%
 		}
 
 		#header > .inner {
@@ -2642,6 +2654,17 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 10em;
 		}
+
+		/* Footer */
+
+	#header .icons {
+		margin: 1em 0 0 0;
+	}
+
+		#header .icons a {
+			color: rgba(255, 255, 255, 0.4);
+		}
+
 
 /* Footer */
 
@@ -2682,10 +2705,12 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
+		/* margin-left: 35%; */
+        margin-left:auto;
+        margin-right:auto;
+		/* max-width: 54em; */
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		width: 70%;
 	}
 
 		#main > section {
@@ -2699,6 +2724,9 @@ input, select, textarea {
 				margin-top: 0;
 				padding-top: 0;
 			}
+	#main .image.avatar {
+		width: 100%;
+	}
 
 /* Poptrox */
 
@@ -3026,10 +3054,21 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				margin-left: 30%;
-				max-width: none;
+				margin-left: auto;
+				margin-right: auto;
+				/* margin-left: 30%; */
+				/* max-width: none; */
 				padding: 6em 3em 3em 3em;
-				width: calc(100% - 30%);
+				width: 70%;
+			}
+
+
+			#one {
+				flex-direction: column;
+			}
+
+			#one .image.avatar {
+				width: 60%;
 			}
 
 	}
@@ -3114,6 +3153,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+
 	}
 
 /* Small */
@@ -3181,6 +3222,7 @@ input, select, textarea {
 					padding: 2.25em 0 0 0;
 				}
 
+
 		/* Poptrox */
 
 			.poptrox-popup {
@@ -3219,3 +3261,39 @@ input, select, textarea {
 			}
 
 	}
+
+
+
+/* One*/
+
+	#one {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	
+	.imagebio {
+		text-align: center;
+	}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+	padding-right: 5%;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1030; /* to prevent the navbar getting covered up by other content */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px 16px;
+	border: none;
+  }

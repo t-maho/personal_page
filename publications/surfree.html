@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Paper: SurFree</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+
+		<!-- Header -->
+		<div class="topnav">
+			<a href="../index.html#three">Contact</a>
+			<a href="../index.html#two">Publications</a>
+			<a href="../index.html#news">News</a>
+			<a class="active" href="../index.html">Home</a>
+		</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<form action="./index.html#two" style="display:flex; justify-content:flex-end;">
+							<input type="submit" value="Back to the papers" />
+						</form>
+
+						<header class="major">
+							<h2>SurFree: a fast surrogate-free black-box attack<br /></h2>
+                            <p>
+                                <a href="../index.html">Thibault MAHO</a>, 
+								<a href="http://people.rennes.inria.fr/Teddy.Furon">Teddy FURON</a>, 
+								<a href=https://erwanlemerrer.github.io>Erwan LE MERRER</a> <br />
+                                Accepted To CVPR 2021
+                            </p>
+						</header>
+
+                        <div class="inner">
+                            <ul class="icons">
+                                <li><a href="https://github.com/t-maho/SurFree" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                                <li><a href="./pdf/surfree.pdf" target="_blank" class="icon far fa-file-pdf"><span class="label">PDF</span></a></li>
+                                <li><a href="https://arxiv.org/abs/2011.12807" target="_blank"><span>Arxiv</span></a></li>
+								<li><a href="./pdf/surfree_poster_cvpr2021.pdf" target="_blank"><span>Poster</span></a></li>
+								<!-- <li><a href="#"><span>Video (Not available)</span></a></li> -->
+                            </ul>
+                        </div>
+
+                        <h2>Abstract</h2>
+						<p> 
+							Machine learning classifiers are critically prone to evasion attacks. Adversarial examples 
+                            are slightly modified inputs that are then misclassified, while remaining perceptively close 
+                            to their originals. Last couple of years have witnessed a striking decrease in the amount of 
+                            queries a black box attack submits to the target classifier, in order to forge adversarials. 
+                            This particularly concerns the black-box score-based setup, where the attacker has access to 
+                            top predicted probabilites: the amount of queries went from to millions of to less than a 
+                            thousand. <br /> <br />
+                            
+                            This paper presents SurFree, a geometrical approach that achieves a similar drastic 
+                            reduction in the amount of queries in the hardest setup: black box decision-based attacks 
+                            (only the top-1 label is available). We first highlight that the most recent attacks in that 
+                            setup, HSJA, QEBA and GeoDA all perform costly gradient surrogate estimations. SurFree proposes 
+                            to bypass these, by instead focusing on careful trials along diverse directions, guided by 
+                            precise indications of geometrical properties of the classifier decision boundaries. We motivate 
+                            this geometric approach before performing a head-to-head comparison with previous attacks with 
+                            the amount of queries as a first class citizen. We exhibit a faster distortion decay under low 
+                            query amounts (few hundreds to a thousand), while remaining competitive at higher query budgets.
+                        </p>
+
+					</section>
+
+					<section class="image fit">
+						<img src="../images//surfree_image.jpg" alt="" />
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/t-maho" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://fr.linkedin.com/in/thibault-maho-b15281a6" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="../index.html#three" class="icon far fa-address-card"><span class="label">Contact</span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            
+
+	</body>
+</html>
