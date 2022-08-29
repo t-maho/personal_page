@@ -2728,6 +2728,33 @@ input, select, textarea {
 		width: 100%;
 	}
 
+/* Publication */
+
+#publication {
+	/* margin-left: 35%; */
+	margin-left:auto;
+	margin-right:auto;
+	/* max-width: 54em; */
+	padding: 8em 4em 4em 4em;
+	width: 70%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+	#publication > section {
+		border-top: solid 2px #efefef;
+		margin: 4em 0 0 0;
+		padding: 4em 0 0 0;
+	}
+
+		#publication > section:first-child {
+			border-top: 0;
+			margin-top: 0;
+			padding-top: 0;
+		}
+	
+
 /* Poptrox */
 
 	@-moz-keyframes spin {
@@ -3147,13 +3174,11 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+			#main, #publication {
 				margin: 0;
 				padding: 6em 4em;
 				width: 100%;
 			}
-
-
 
 	}
 
@@ -3297,3 +3322,9 @@ input, select, textarea {
 	padding: 20px 16px;
 	border: none;
   }
+
+  /* Add a color to the active/current link */
+	.topnav a.active {
+		background-color: #04AA6D;
+		color: white;
+	}
