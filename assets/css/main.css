@@ -2065,6 +2065,9 @@ input, select, textarea {
 
 		.image.thumb {
 			text-align: center;
+			border-radius: 0.35em;
+			border: solid 3px grey;
+			padding: 5%;
 		}
 
 			.image.thumb:after {
@@ -2096,8 +2099,8 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
-				opacity: 1.0;
+				background-color: #333;
+				opacity: 0.6;
 			}
 
 		.image img {
@@ -3258,7 +3261,7 @@ input, select, textarea {
 				.poptrox-popup .nav-previous:before {
 					margin-top: -1em;
 				}
-
+		
 	}
 
 /* XSmall */
@@ -3307,13 +3310,23 @@ input, select, textarea {
 .topnav {
 	background-color: #333;
 	overflow: hidden;
-	padding-right: 5%;
+	padding-right: 15%;
+	padding-left: 15%;
 	position: fixed;
 	width: 100%;
+
 	top: 0;
 	z-index: 1030; /* to prevent the navbar getting covered up by other content */
   }
   
+  /* Style the links inside the navigation bar */
+  .topnav h1 {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	margin: 0;
+  }
+
   /* Style the links inside the navigation bar */
   .topnav a {
 	float: right;
@@ -3328,3 +3341,4 @@ input, select, textarea {
 		background-color: #04AA6D;
 		color: white;
 	}
+
