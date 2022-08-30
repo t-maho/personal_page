@@ -2757,6 +2757,11 @@ input, select, textarea {
 			padding-top: 0;
 		}
 	
+	#publication form {
+		display:flex; 
+		justify-content:flex-end;
+	}
+	
 
 /* Poptrox */
 
@@ -3179,13 +3184,14 @@ input, select, textarea {
 
 			#main, #publication{
 				margin: 0;
-				padding: 8em 4em;
+				padding: 6em 4em;
 				width: 100%;
 				margin: 0 auto;
 			}
 			
-
+			
 			.topnav #logo {
+				padding-bottom: 0.4em;
 				float: none;
 			}
 			
@@ -3210,7 +3216,10 @@ input, select, textarea {
 			  display: block;
 			  text-align: right;
 			}
-
+			
+			#publication form {
+				justify-content: center;
+			}
 	}
 
 /* Small */
