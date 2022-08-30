@@ -3177,10 +3177,38 @@ input, select, textarea {
 
 		/* Main */
 
-			#main, #publication {
+			#main, #publication{
 				margin: 0;
 				padding: 4em 4em;
 				width: 100%;
+				margin: 0 auto;
+			}
+			
+
+			.topnav #logo {
+				float: none;
+			}
+			
+			.topnav a:not(:first-child) {display: none;}
+			.topnav a.icon {
+				float: right;
+				position: absolute;
+				right: 4em;
+				top: 0;
+				display: block;
+			}
+
+			.topnav.responsive {position: fixed;}
+			.topnav.responsive a.icon {
+			  position: fixed;
+			  right: 0;
+			  top: 0;
+			}
+			.topnav.responsive a {
+			  float: none;
+			  top: 200%;
+			  display: block;
+			  text-align: right;
 			}
 
 	}
@@ -3261,6 +3289,8 @@ input, select, textarea {
 				.poptrox-popup .nav-previous:before {
 					margin-top: -1em;
 				}
+
+
 		
 	}
 
@@ -3310,35 +3340,50 @@ input, select, textarea {
 .topnav {
 	background-color: #333;
 	overflow: hidden;
-	padding-right: 15%;
-	padding-left: 15%;
+	padding-right: 20%;
+	padding-left: 20%;
 	position: fixed;
 	width: 100%;
 
 	top: 0;
 	z-index: 1030; /* to prevent the navbar getting covered up by other content */
   }
-  
-  /* Style the links inside the navigation bar */
-  .topnav h1 {
-	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	margin: 0;
-  }
+	/* Style the links inside the navigation bar */
+	.topnav h1 {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		margin: 0;
+		}
 
   /* Style the links inside the navigation bar */
   .topnav a {
 	float: right;
+	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 20px 16px;
-	border: none;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+	display: none;
   }
 
-  /* Add a color to the active/current link */
-	.topnav a.active {
-		background-color: #04AA6D;
-		color: white;
-	}
-
+  .topnav #logo {
+	font-size: 2em;
+  }
