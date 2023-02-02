@@ -65,7 +65,6 @@ function imageloaded(){
     const date = new Date();
     let day = date.getDate();
     let month = date.getMonth() + 1;
-    // document.getElementById('answer').value = cyrb53("Lodge-bélvédere");;
 
     if (month == 1) {
         var n_pas = day 
