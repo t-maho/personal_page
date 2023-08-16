@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Paper: FBI</title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="../images/favicon2.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<div class="topnav" id="myTopnav">
+			<h1 id="logo">Thibault Maho</h1>
+			<a href="../index.html#contact">Contact</a>
+			<a href="../index.html#publications">Publications</a>
+			<a href="../index.html#news">News</a>
+			<a href="../index.html" class="active">Home</a>
+			<a href="javascript:void(0);" class="icon" onclick="navbar()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+
+
+		<div id="publication">
+
+			<div>
+				<form action="../index.html#publications">
+					<input type="submit" value="Back to papers" />
+				</form>
+
+				<header class="major">
+					<h2>How to choose your best allies for a transferable attack?</h2>
+					<p>
+						<a href="../index.html">Thibault MAHO</a>, 
+						<a href="https://smoosavi.me">Seyed-Mohsen MOOSAVI-DEZFOOLI</a> <br />
+						<a href="http://people.rennes.inria.fr/Teddy.Furon">Teddy FURON</a>, 
+						
+					</p>
+				</header>
+
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/t-maho/transferability_measure_fit" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<!-- <li><a href="./pdf/fbi.pdf" class="icon far fa-file-pdf" target="_blank"><span class="label">PDF</span></a></li> -->
+						<li><a href="https://arxiv.org/abs/2304.02312" target="_blank"><span>Arxiv</span></a></li>
+						<!-- <li><a href="./pdf/surfree_poster_cvpr2021.pdf"><span>Poster</span></a></li> -->
+						<!-- <li><a href="#"><span>Video (Not available)</span></a></li> -->
+					</ul>
+				</div>
+			</div>
+			
+			<div>
+				<h2>Abstract</h2>
+				<p> 
+                    The transferability of adversarial examples is a key issue in the security of deep neural networks. 
+                    The possibility of an adversarial example crafted for a source model fooling another targeted model makes the threat of adversarial attacks more realistic. 
+                    Measuring transferability is a crucial problem, but the Attack Success Rate alone does not provide a sound evaluation. 
+                    This paper proposes a new methodology for evaluating transferability by putting distortion in a central position. 
+                    This new tool shows that transferable attacks may perform far worse than a black box attack if the attacker randomly picks the source model. 
+                    To address this issue, we propose a new selection mechanism, called FiT, which aims at choosing the best source model with only a few preliminary queries to the target. 
+                    Our experimental results show that FiT is highly effective at selecting the best source model for multiple scenarios such as single-model attacks, ensemble-model attacks and multiple attacks.
+				</p>
+				
+
+				<!-- <object data=
+				"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10201933" 
+								width="100%"
+								height="800">
+				</object> -->
+
+				<iframe src="./pdf/fit.pdf" width="100%" height="800"></iframe>
+			</div>
+
+
+		</div>
+
+	<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.poptrox.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+            
+
+	</body>
+</html>
